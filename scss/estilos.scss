@@ -1,0 +1,205 @@
+//BLOQUE 1 EN LA SECCIÓN CARRITO
+.carrito__contenedor {
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    justify-content: space-around;
+    border-radius: 60px 60px 60px 60px;
+    .carrito__caja {
+        height: 250px;
+        width: 100%;
+        background-color: #81B622;
+        line-height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        border-radius: 60px 60px 60px 60px;
+        .carrito__imagen {
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            padding-left: 40px;
+            object-fit: cover;
+        }
+    }
+}
+
+//BLOQUE 2 EN TODAS LAS SECCIONES PERROS/GATOS/AVES Y PECES
+.barra__productos {
+    width: 100%;
+    background-color: #2E7D32;
+    margin-top: 40px;
+    border-radius: 60px 60px 60px 60px;
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+//BLOQUE 3 SECCIÓN SALUD PERROS
+.inline__block {
+    display: inline-block;
+    .altura__logo {
+        height: 180px;
+    }
+}
+
+//BLOQUE 4 EN LAS 11 SECCIONES DEL SUBMENÚ DE PERROS/GATOS/AVESYPECES
+.cajas__contenedoras {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    border-radius: 60px 60px 60px 60px;
+    .caja__contenedora {
+        height: 350px;
+        width: 300px;
+        background-color: #81B622;
+        line-height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 60px 60px 60px 60px;
+        .imagen__contenedor {
+            height: 200px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+//BLOQUE 5 EN LAS 11 SECCIONES DEL SUBMENÚ DE PERROS/GATOS/AVESYPECES
+.descripciones__contenedores {
+    height: 150px;
+    width: 300px;
+    line-height: 150px;
+    background-color: #ECF87F;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 60px 60px 60px 60px;
+    .descripcion__contenedor {
+        height: 50px;
+        width: 300px;
+        line-height: 50px;
+        font-family: 'Architects Daughter', cursive;
+    }
+}
+
+//BLOQUE 6 EN LAS 11 SECCIONES DEL SUBMENÚ DE PERROS/GATOS/AVES Y PECES + CARRITO-LOGIN-RESGISTRO-CONTACTO
+.inline__block {
+    display: inline-block;
+    .logo__fp {
+        height: 180px
+    }
+}
+
+//BLOQUE 7 EN LA SECCIÓN REGISTRO-CONTRASEÑA
+.espacio__formulario {
+    margin-top: 10px;
+    .tamanio__contraseña {
+        width: 210px;
+    }
+}
+
+//PRIMER ESTILO SECCIÓN LOGIN
+$width:40%;
+$green:#2E7D32;
+$font:20px;
+$top:60px;
+$bottom:40px;
+$left:30%;
+$radius: 60px 60px 60px 60px;
+.iniciarSesion {
+    background-color: $green;
+    font-size: $font;
+    margin-top: $top;
+    margin-bottom: $bottom;
+    border-radius: $radius;
+}
+
+.inicioDeSesion {
+    width: $width;
+    margin-left: $left;
+}
+
+//SEGUNDO ESTILO SECCIÓN REGISTRO
+$m-top:brown;
+$m-bottom:violet;
+$m-left:skyblue;
+$blue:blue;
+$chartreuse: chartreuse;
+$cyan: cyan;
+$red:red;
+.registros {
+    @if $m-top==brown {
+        margin-top: 20px;
+    }
+    @else if $m-top==cyan {
+        margin-top: 120px;
+    }
+    @else if $m-top==chartreuse {
+        margin-top: 70px;
+    }
+    @else {
+        margin-top: 90px;
+    }
+}
+
+.botonRegistro {
+    @if $m-bottom==brown {
+        margin-bottom: 200px;
+    }
+    @else if $m-bottom==cyan {
+        margin-bottom: 30%;
+    }
+    @else if $m-bottom==chartreuse {
+        margin-bottom: 4rem;
+    }
+    @else {
+        margin-bottom: 20px;
+    }
+}
+
+.botonRegistro {
+    @if $m-left==brown {
+        margin-left: 200%;
+    }
+    @else if $m-left==skyblue {
+        margin-left: 48%;
+    }
+    @else if $m-left==chartreuse {
+        margin-left: 100px;
+    }
+    @else {
+        margin-left: 6rem;
+    }
+}
+
+//TERCER ESTILO SECCIÓN REGISTRO
+$M-top:100px;
+$M-bottom:100px;
+$fondo: #2E7D32;
+$font-s:100px;
+.registrate {
+    background-color: $fondo;
+    border-radius: $radius;
+    font-size: ($font-s)-80px;
+    margin-top: ($M-top)-40px;
+    margin-bottom: ($M-bottom)-60px;
+}
+
+.espacioFormulario {
+    margin-top: ($M-top)-90px;
+}

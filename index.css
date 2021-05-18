@@ -1,0 +1,565 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    a {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    body {
+        background-image: linear-gradient(to top, #ECF87F, #81B622, #ECF87F, #D7DF01);
+    }
+    
+    header {
+        height: 150px;
+        width: 100%;
+    }
+    
+    .imgNav {
+        height: 100%;
+        width: auto;
+        float: left;
+    }
+    
+    .imgLogIn {
+        height: 30px;
+        width: auto;
+    }
+    
+    .registros {
+        margin-top: 20px;
+    }
+    
+    .botonRegistro {
+        margin-bottom: 20px;
+        margin-left: 48%;
+    }
+    
+    .letra {
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .bordes {
+        border-style: dotted;
+        border-color: black;
+    }
+    
+    .contactoAjustes {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    
+    .imgEnvios {
+        margin-left: 45%;
+    }
+    
+    .imgPagos {
+        margin-left: 45%;
+    }
+    
+    footer {
+        background-color: #81B622;
+        margin-top: 60px;
+        text-decoration: black;
+    }
+    
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        text-align: center;
+    }
+    
+    h2 {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    h4 {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .sobreNosotros {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive !important;
+        line-height: 30px;
+        padding-top: 60px;
+    }
+    
+    .imagenNosotros {
+        margin-left: 55px;
+    }
+    
+    .margenNosotros {
+        margin-left: 40px;
+    }
+    
+    .tuConsulta {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+        margin-bottom: 30px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .formularioConsulta {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+    
+    .elLocal {
+        margin-bottom: 40px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .direccion {
+        margin-bottom: 100px;
+        background-color: #2E7D32;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .barraRedes {
+        background-color: #2E7D32;
+        border-radius: 60px 60px 60px 60px;
+        margin-top: 80px;
+    }
+    
+    .barraContacto {
+        background-color: #2E7D32;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .contacto {
+        margin-left: 41%;
+    }
+    
+    .contactoDos {
+        margin-left: 45%;
+    }
+    
+    .mapaCentrado {
+        width: 100%;
+    }
+    
+    .iniciarSesion {
+        background-color: #2E7D32;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .registrate {
+        background-color: #2E7D32;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .inicioDeSesion {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    .registros {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 40px;
+    }
+    
+    form {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    th {
+        color: rgb(0, 0, 0);
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    p {
+        margin: 0%;
+        text-align: center;
+    }
+    
+    .inlineBlock {
+        display: inline-block;
+    }
+    
+    .lcUbicacion {
+        margin-bottom: 8%;
+    }
+    
+    .entregasUbicacion {
+        margin-bottom: 6%;
+        margin-left: 12%;
+        margin-top: 1%;
+    }
+    
+    .retiroUbicacion {
+        margin-bottom: 4%;
+        margin-left: 16%;
+        margin-top: 1%;
+    }
+    
+    .efectivoUbicacion {
+        margin-left: 4%;
+    }
+    
+    .cuotasUbicacion {
+        margin-left: 20%;
+    }
+    
+    .codigoQR {
+        margin-left: 15%;
+    }
+    
+    .tarjetasUbicacion {
+        margin-left: 30%;
+    }
+    
+    .imagenEfectivo {
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+    
+    .telefonoUbicacion {
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+    
+    .telUbicacion {
+        padding-left: 90px;
+    }
+    
+    .horarioUbicacion {
+        margin-left: 120px;
+        margin-bottom: 80px;
+    }
+    
+    .tiempoUbicacion {
+        padding-left: 100px;
+    }
+    
+    .whatUbicacion {
+        margin-left: 150px;
+        margin-bottom: 80px;
+    }
+    
+    .whatsUbicacion {
+        padding-left: 90px;
+    }
+    
+    .iconoFacebook {
+        margin-left: 200px;
+        margin-bottom: 80px;
+    }
+    
+    .iconoInstagram {
+        margin-left: 190px;
+        margin-bottom: 80px;
+    }
+    
+    .iconoYouTube {
+        margin-left: 150px;
+        margin-bottom: 80px;
+    }
+    
+    .seleccionados {
+        width: 150px;
+        margin-left: 45%;
+    }
+    
+    .favoritosAnteriores {
+        width: 150px;
+        margin-left: 35%;
+    }
+    
+    .favoritosAnterioresDos {
+        width: 150px;
+        margin-left: 5%;
+    }
+    
+    .cajasContenedoras {
+        display: flex;
+        width: 100%;
+        height: 800px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 60px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .caja {
+        height: 350px;
+        width: 300px;
+        background-color: #81B622;
+        line-height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .imagenCarta {
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .descripcionCarta {
+        height: 150px;
+        width: 300px;
+        line-height: 150px;
+        background-color: #ECF87F;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .seccionDescripcion {
+        height: 50px;
+        width: 300px;
+        line-height: 50px;
+    }
+    
+    .barraProductos {
+        width: 100%;
+        background-color: #2E7D32;
+        margin-top: 40px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .barraProductosUno {
+        width: 100%;
+        background-color: #2E7D32;
+        margin-top: 40px;
+    }
+    
+    .cajasContenedorasCarrito {
+        display: flex;
+        width: 100%;
+        min-height: 800px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 60px;
+        justify-content: space-around;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .cajaCarrito {
+        height: 250px;
+        width: 100%;
+        background-color: #81B622;
+        line-height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .cajaCarritoUno {
+        height: 250px;
+        width: 100%;
+        background-color: #ECF87F;
+        ;
+        line-height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cajaCarritoDos {
+        height: 250px;
+        width: 100%;
+        background-color: #81B622;
+        line-height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagenCarrito {
+        height: 200px;
+        width: 200px;
+        line-height: 200px;
+        padding-left: 40px;
+        object-fit: cover;
+    }
+    
+    .descripcionCarrito {
+        background-color: #ECF87F;
+        line-height: 100px;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .barraProductosCarrito {
+        width: 100%;
+        background-color: #2E7D32;
+        margin-top: 80px;
+        text-align: center;
+        border-radius: 60px 60px 60px 60px;
+    }
+    
+    .galeria {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px;
+    }
+    
+    .galeria h1 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+        color: black;
+    }
+    
+    @media only screen and (max-width: 320px) {
+        #logo {
+            margin-left: 25%;
+        }
+        #alimentoUno {
+            width: 90%;
+            height: 200px;
+            margin-left: 20px;
+        }
+        #alimentoDos {
+            width: 90%;
+            height: 200px;
+            margin-left: 20px;
+        }
+        #alimentoTres {
+            width: 90%;
+            height: 200px;
+            margin-left: 20px;
+        }
+        .margenNosotros {
+            margin-left: 0%;
+        }
+        .sobreNosotros {
+            font-size: 15px;
+            text-align: center;
+        }
+        .imagenNosotros {
+            height: 300px;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1%;
+            margin-right: 0%;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) and (min-width: 321px) {
+        #alimentoDos {
+            width: 90%;
+            height: 380px;
+        }
+        .textoCarrusel {
+            margin-left: 20px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        #logo {
+            margin-left: 40%;
+        }
+    }
+    
+    @media only screen and (max-width: 1024px) and (min-width: 769px) {
+        #login {
+            margin-right: 60px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        #logo {
+            margin-left: 40%;
+        }
+        #alimentoDos {
+            width: 72%;
+            height: 390px;
+        }
+    }
+    
+    .align_center {
+        text-align: center;
+    }
+    
+    .carousel-inner img {
+        margin: auto;
+    }
+    
+    .textoCarrusel {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+        background-color: black;
+        width: 500px;
+        margin-left: 25%;
+        color: white;
+    }
+    
+    .textoNav {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+    }
+    
+    .textoSubmenu {
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .textoMenu {
+        text-decoration: none;
+        background-color: #81B622;
+    }
+    
+    .barraNav {
+        background-color: #81B622;
+    }
+    
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    
+    .imagenesCarrousel {
+        height: 500px;
+    }
